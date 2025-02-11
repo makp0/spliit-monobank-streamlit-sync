@@ -1,0 +1,5 @@
+streamlit
+requests
+toml
+monobank
+spliit-api-client==0.1.4
