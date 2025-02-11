@@ -170,7 +170,7 @@ st.title("Spliit Importer")
 # 1. Ask for Spliit Group
 st.header("Step 1: Spliit Group")
 default_group = st.secrets.get("spliit_group", "")
-group_url = st.text_input("Enter Spliit Group URL", value=default_group, help="Example: https://spliit.app/groups/your-group-id")
+group_url = st.text_input("Enter Spliit Group URL", value=default_group, help="Example: https://spliit.app/groups")
 fetch_group_button = st.button("Fetch Group")
 
 if "group_data" not in st.session_state:
