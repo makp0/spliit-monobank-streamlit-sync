@@ -2,4 +2,4 @@ streamlit
 requests
 toml
 monobank
-spliit-api-client==0.1.5
+https://github.com/maxpol/spliit-api-client.git@main#egg=spliit-api-client
